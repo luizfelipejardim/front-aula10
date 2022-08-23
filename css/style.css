@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quadrados div {
+    width: 300px;
+    height: 500px;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 10px;
+    border: solid 2px rgb(0, 0, 0);
+    background-color: rgb(224, 237, 249);
+    text-align: center;
+    display: inline-block;
+}
+
+.quadrados {
+    display: flex;
+}
+
+.img {
+    border-radius: 3px;
+    width: 300px;
+}
+
+.descricao {
+    padding: 50px;
+}
+
+.valor {
+    font-size: larger;
+}
